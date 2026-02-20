@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+*.egg
+
+# Environment
+.env
+.env.*
+
+# Conda
+env/
+.conda/
+
+# Node.js
+node_modules/
+dist/
+
+# Kiro (settings, men IKKE specs)
+.kiro/settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -60,8 +60,12 @@ kiro-laeringsforloeb/
 ├── OPSAETNING.md              ← Sådan sætter du miljøet op
 │
 ├── app/                       ← Den fiktive applikation (FangstLog)
-│   ├── src/                   ← Kildekode
-│   └── tests/                 ← Tests
+│   ├── src/
+│   │   ├── main.py            ← FastAPI applikation med alle endepunkter
+│   │   └── models.py          ← Pydantic datamodeller (FangstInput, FangstRegistrering)
+│   ├── tests/
+│   │   └── test_fangster.py   ← Komplet testsuite (13 tests)
+│   └── pytest.ini             ← Pytest-konfiguration
 │
 ├── .kiro/
 │   └── specs/                 ← Færdige eksempel-specs (start her!)
@@ -69,11 +73,14 @@ kiro-laeringsforloeb/
 │       ├── bruger-autentificering.md
 │       └── rapport-generering.md
 │
+├── .gitignore                 ← Python/Node.js/Kiro gitignore
+├── INSTRUKTION_TIL_UNDERVISER.md ← Intern vejledning til facilitator
+│
 └── oevelser/
     ├── 01-laes-en-spec/       ← Begynder: forstå hvad en spec er
     ├── 02-bed-kiro-skrive-spec/ ← Let øvet: lad Kiro skrive en spec
-    ├── 03-udvid-feature/      ← Øvet: tilføj en ny funktion
-    └── 04-node-refaktorering/ ← Avanceret: Python → Node.js
+    ├── 03-udvid-feature/      ← Øvet: tilføj en ny funktion (inkl. hints.md)
+    └── 04-node-refaktorering/ ← Avanceret: Python → Node.js (inkl. package-template.json)
 ```
 
 ---
