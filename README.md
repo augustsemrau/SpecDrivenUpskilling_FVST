@@ -2,7 +2,7 @@
 
 Velkommen til dette læringsforløb. Du er ved at lære, hvordan man bruger **Kiro** og **spec-drevet udvikling** til at bygge og videreudvikle softwaresystemer med hjælp fra AI.
 
-Dette materiale er lavet til medarbejdere på IT-fundament projektet hos Fiskeristyrelsen — uanset om du er projektleder, ny udvikler, eller blot nysgerrig på, hvordan AI indgår i vores arbejdsproces.
+Dette materiale er lavet til medarbejdere hos Fiskeristyrelsen — uanset om du er projektleder, ny udvikler, eller blot nysgerrig på, hvordan AI indgår i vores arbejdsproces.
 
 > 🚀 **Kom i gang:** Læs [OPSAETNING.md](./OPSAETNING.md) for at hente projektet og sætte dit miljø op — det tager ca. 15 minutter.
 
